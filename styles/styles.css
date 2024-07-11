@@ -62,6 +62,9 @@ nav ul{
     font: 18px;
     color: #757575;
 }
+.text-center{
+    text-align: center;
+}
 
 /* header */
 
@@ -99,6 +102,10 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 
 /* About Styles */
 
@@ -106,7 +113,6 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
-    margin-top: 130px;
 }
 .about-items{
     display: flex;
@@ -114,4 +120,107 @@ main{
 }
 .item-description{
     font-weight: 600;
+}
+
+/* skills section styles */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section styles */
+
+.resume-container{
+    display: flex;
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-subtitle{
+    color: #757575;
+}
+.resume hr{
+    size: 558px;
+    margin: 20px 10px;
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+.text-container{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* footer styles */
+
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    background-color: #f8f1eb; /* Adjust to match the background color */
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer .section-title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+footer p {
+    margin-bottom: 20px;
+    font-size: 1em;
+    color: #555; /* Adjust color if needed */
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 15px;
+}
+
+footer .social-icons a img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+}
+
+footer input[type="text"], 
+footer input[type="email"], 
+footer textarea {
+    height: 48px; /* Adjusted height for better alignment */
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 16px; /* Adjusted margin for better spacing */
+    border: 1px solid #ddd; /* Added border for better visibility */
+    font-size: 1em;
+}
+
+footer textarea {
+    height: auto; /* Allow the height to adjust based on content */
+}
+
+footer .btn-primary {
+    background-color: #ff7f0e; /* Adjust to match the button color */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
 }
